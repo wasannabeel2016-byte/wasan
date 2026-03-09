@@ -1,3 +1,10 @@
-input.onGesture(Gesture.Shake, function () {
-    basic.showNumber(randint(1, 6))
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    basic.pause(500)
+    basic.showIcon(IconNames.Skull)
+    basic.pause(500)
+    basic.showIcon(IconNames.House)
+    basic.pause(500)
+    basic.showIcon(IconNames.StickFigure)
+    basic.pause(500)
 })
